@@ -1,0 +1,11 @@
+<h1>Kreiraj novi cilj</h1>
+
+<form action="/goals/create" method="POST" class="mt-4">
+  <div>
+    <label for="description" class="block">Opis cilja:</label>
+    <input type="text" id="description" name="description" class="border p-2 w-full" required>
+  </div>
+  <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded mt-2">Spremi cilj</button>
+</form>
+
+<a href="/goals" class="block mt-2">Natrag na popis ciljeva</a>
